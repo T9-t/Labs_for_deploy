@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Интерактивный мем</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <section id="quiz" class="screen">
+        <p>Введите дела, которые собираетесь делать</p>
+
+        <input type="text" id="task1" placeholder="Сделать лабу по Vue"/>
+        <br><br>
+        <input type="text" id="task2" placeholder="Сделать лабу по машинному обучению"/>
+        <br><br>
+        <input type="text" id="task3" placeholder="Сделать домашку по экономике"/>
+        <br><br>
+        <button class="primary" id="startMeme">Показать мем</button>
+      </section>
+    </div>
+
+    <div class="full-screen-bg" hidden>
+      <div class="content">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

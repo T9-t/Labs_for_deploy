@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Хэллоуин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Угадай под каким стаканом конфета</h1>
+    </header>
+
+    <section class="board" id="gameBoard">
+      <div class="table" id="tableRow">
+        <div class="cup" data-index="0" role="button" aria-label="Стакан 1">
+          <div class="candy" aria-hidden="true"></div>
+        </div>
+        <div class="cup" data-index="1" role="button" aria-label="Стакан 2">
+          <div class="candy" aria-hidden="true"></div>
+        </div>
+        <div class="cup" data-index="2" role="button" aria-label="Стакан 3">
+          <div class="candy" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <div id="confettiLayer" aria-hidden="true"></div>
+
+    <section id="winPanel" aria-label="Победа">
+      <h2>Конфета!</h2>
+      <p>Хотите сыграть ещё?</p>
+      <button id="playAgain">Сыграть снова</button>
+    </section>
+  </div>
+
+  <div class="ghost-container" id="ghostContainer"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

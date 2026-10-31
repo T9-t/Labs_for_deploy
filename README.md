@@ -1,1 +1,4 @@
-# Labs_for_deploy
+# Кринж-лаба Хэллоуин
+Просветова Вероника, ФИТ-241
+
+Ссылка на просмотр: https://labhalloween.vercel.app/
